@@ -1,0 +1,138 @@
+:root {
+    --branco: #FFFFFF;
+    --azul: #0772EB;    
+    --cinza-escuro: #131416;
+    --cinza-claro: #1E212C;
+}
+
+body {
+    background-color: var(--cinza-escuro);
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin-top: 2.5625rem; 
+}
+
+.cabecalho__logo {
+    width: 40px; 
+    margin-right: .3125rem
+}
+
+.cabecalho__titulo {
+    font-size: 1.5625rem;
+    color: var(--branco);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.conteudo { 
+    margin-top: 4.375rem;
+}
+
+.conteudo__imagem {
+    width: 180px;
+}
+
+.conteudo__texto {
+    color: var(--branco);
+    font-size: 1.25rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 3.125rem;
+}
+
+.conteudo__texto p:nth-child(3) {
+    margin-bottom: 2.5rem;
+}
+
+.conteudo__botao {
+    text-decoration: none;
+    background-color: var(--azul);
+    color: var(--branco);
+    font-size: 1.25rem;
+    font-weight: bold;
+    padding: .9375rem 3.75rem; 
+    border-radius: 3.125rem;
+}
+
+.niveis {
+    margin-top: 8.125rem;
+    color: var(--branco);
+}
+
+.niveis__titulo {
+    font-size: 1.25rem; 
+    text-transform: uppercase;
+    margin-bottom: 60px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+    width: 200px;
+    height: 150px;
+    margin-bottom: 30px;
+    padding-bottom: 20px; 
+    border-radius: 10px;
+    background-color: var(--cinza-claro); 
+}
+
+.card__logo {
+    width: 70px;
+}
+
+.card__texto { 
+    padding-top: 8px;
+}
+
+.info {
+    color: var(--branco);
+    margin-bottom: 70px;
+}
+
+.info__titulo {
+    font-size: 12px;
+    font-weight: bold;
+    padding: 14px 20px;
+    margin: 70px 0 15px;
+    border-radius: 50px;
+    background-color: var(--cinza-claro);
+}
+
+.info__subtitulo {
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: var(--azul);
+}
+
+.info__texto {
+    font-size: 13px;
+}
+
+footer { 
+    position: absolute;
+    width: 100%;
+    height: 150px;
+    text-align: center;
+    color: var(--branco);
+    background-color: var(--cinza-claro);
+}
+
+.rodape__botao {
+    position: relative;
+    top: -10px;
+}
+
+.rodape__texto { 
+    margin-top: 40px;
+}
